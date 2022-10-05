@@ -21,6 +21,7 @@ header{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+<<<<<<< HEAD
 	width: 75%;
 	height: 30px;
 	padding-top: 20px;
@@ -33,4 +34,6 @@ a{
 	text-align: center;
 	color: #799DAB;
 	text-decoration: none;
+=======
+>>>>>>> 513174f9591155a9f434de0a2e0944e428b5aef4
 }
