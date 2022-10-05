@@ -30,6 +30,11 @@ nav {
     margin: 20px;
     padding-left: 20px;
 }
+br {
+    display:block;
+    content:"";
+    margin-top:30px;
+}
 ul {
     life-style-type:none;
     padding:0;
@@ -42,11 +47,12 @@ li {
     display:inline;
 }
 main {
+    grid-column: 1/4;
     font-family: 'Calibre';
     font-style: normal;
     font-weight: 500;
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 30px;
+    line-height: 40px;
     color:#799DAB;
 }
 main>.workspace {
@@ -54,6 +60,9 @@ main>.workspace {
     background-color: cadetblue;
     display: flex;
     justife-content: center;
+}
+main>.ThreeCircles {
+
 }
 footer {
     background-color: white;
