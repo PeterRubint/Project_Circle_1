@@ -1,14 +1,16 @@
 #grid{
     display: grid;
-    grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
-    width: 100%;
+    grid-template-columns: repeat(5,1fr);
+    margin: 0 auto;
 }
 #mainbox{
     grid-row-start: 2;
     grid-column: 1/6;
+    justify-self: center;
     display: flex;
+    width: 100%;
+    min-height: 80%;
     flex-direction: column;
-    min-width: 80%;
     background-image: url("Resources/pexels-dana-tentis-370799.jpg");
 }
 header{
@@ -22,8 +24,11 @@ p{
     font-family: 'Calibre';
     font-style: normal;
     font-weight: 500;
-    font-size: 40px;
+    font-size: 30px;
     color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
 }
 h1{
     font-family: 'Calibre';
@@ -32,4 +37,29 @@ h1{
     font-size: 70px;
     line-height: 84px;
     color: #FFFFFF;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+h2{
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    color: white;
+    margin-top: 40px;
+}
+#prodbox{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    grid-row-start: 3;
+    grid-column: 1/6;
 }
