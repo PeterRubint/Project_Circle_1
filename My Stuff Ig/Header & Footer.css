@@ -1,0 +1,25 @@
+header{
+	display:flex;
+	flex-direction: row;
+}
+
+.menu{
+	display:inline;
+	padding: 5px;
+}
+
+#img{
+	display: flex;
+	align-items: flex-start;
+	flex-direction: row;
+	width: 20%;
+}
+
+#updog{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 80%;
+	height: 30px;
+	padding-top: 20px;
+}
