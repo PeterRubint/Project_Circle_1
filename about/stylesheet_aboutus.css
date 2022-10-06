@@ -3,13 +3,6 @@
 	
     display: grid;
 	grid-template-columns: 20% 20% 20% 20% 20%;
-	grid-template-rows: 20% 20% 20% 20% 20%;
-}
-
-header{
-	grid-column: 1/6;
-	grid-row: 1/6;
-	background-color: green;
 }
 
 main{
@@ -19,16 +12,19 @@ main{
 	
 	grid-column: 1/6;
 	grid-row: 1/6;
-	margin-top: 100px;
-	padding-top: 120px;
+	margin-top: 110px;
 
 	background-color: #DCF1F9;
 }
 
 #customerstories{
-	display: flex;
 	grid-column: 1/6;
-	grid-row: 1/6;
+	grid-row: 1/2;
+	margin-top: 25px;
+	margin-bottom: 0px;
+	padding-top: 16px;
+	padding-left: 70px;
+	height: 70px;
 	
 	font-family: 'Calibre';
 	font-style: normal;
@@ -36,6 +32,7 @@ main{
 	font-size: 70px;
 	line-height: 84px;
 
+	background-color: #DCF1F9;
 	color: #799DAB;
 }
 
