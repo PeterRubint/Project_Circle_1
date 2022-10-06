@@ -59,10 +59,33 @@ main>.workspace {
     grid-column: 1/4;
     background-color: cadetblue;
     display: flex;
-    justife-content: center;
+    justify-content: center;
 }
 main>.ThreeCircles {
-
+    display:flex;
+    justify-content:center;
+    position:relative;
+    background-image: url("../Resources/circles.png");
+    height: 625px;
+}
+.prices {
+    grid-column: 2/4;
+    vertical-align: baseline;
+    line-height: 1;
+    flex-wrap:wrap;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.prices>img {
+    display:flex;
+    max-width: 50%;
+    flex-direction: row;
+    padding-left: -50px;
+    padding-right: -50px;
+    margin:-10px;
 }
 footer {
     background-color: white;
