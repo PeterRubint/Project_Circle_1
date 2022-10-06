@@ -23,7 +23,7 @@ main{
 	margin-top: 25px;
 	margin-bottom: 0px;
 	padding-top: 16px;
-	padding-left: 70px;
+	padding-left: 45px;
 	height: 70px;
 	
 	font-family: 'Calibre';
@@ -39,14 +39,15 @@ main{
 #story{
 	display: flex;
 	flex-direction: column;
-	width: 60%;
+	height: 800px;
+	width: 400px;
 }
 
 .stories{
 	font-family: 'Calibre';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 25px;
+	font-size: 15px;
 	line-height: 30px;
 
 	color: #799DAB;
@@ -55,18 +56,6 @@ main{
 #graphictext{
 	display: flex;
 	flex-direction: column;
-	width: 20%;
-}
-
-.graphic{
-	font-family: 'Calibre';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 15px;
-	line-height: 36px;
-	text-align: center;
-
-	color: #799DAB;
 }
 
 footer{
