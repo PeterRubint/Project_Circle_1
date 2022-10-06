@@ -1,7 +1,7 @@
 header{
 	display:flex;
 	flex-direction: row;
-	
+	padding-bottom: 20px;
 }
 
 
@@ -34,4 +34,44 @@ a{
 	text-align: center;
 	color: #799DAB;
 	text-decoration: none;
+}
+
+footer{
+	display: flex;
+	background-color: white;
+}
+
+#ContactContainer{
+	display: flex;
+	width: 200px;
+	font-family: Calibre;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 13px;
+	color: #799DAB;
+	padding-top: 30px;
+	padding-left: 35px;
+}
+
+footer a{
+	display: flex;
+	margin: 25px;
+	align-content: flex-start;
+	color: #799DAB;
+	font-family: Calibre;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+#SocialContainer{
+	display: flex;
+	padding-left: 510px;
+	padding-top: 15px;
+	font-family: Calibre;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 13px;
+	color: #799DAB;
+	
 }
