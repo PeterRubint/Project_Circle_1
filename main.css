@@ -52,10 +52,10 @@ h2{
     justify-content: space-between;
     align-items: center;
 }
-footer{
-    display: flex;
-    width: 100%;
-    background-color: white;
-    grid-row-start: 3;
-    grid-column: 1/6;
+#contacttext{
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #799DAB;
 }

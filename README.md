@@ -8,6 +8,6 @@ Website in development for the first project period of Information Technology at
     <li>Run git pull</li>
     <li>Work on the code</li>
     <li>Once finished, run git add *</li>
-    <li>Run git commit, enter commit msg</li>
+    <li>Run git commit -m "[message]"</li>
     <li>Run git push</li>
 </ol>
