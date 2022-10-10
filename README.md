@@ -12,5 +12,4 @@ Website in development for the first project period of Information Technology at
     <li>Run git push</li>
 </ol>
 
-<p>Icons:</p>
 <a href="https://www.flaticon.com/authors/freepik" title="Icons">Icons courtesy of freepik</a>
