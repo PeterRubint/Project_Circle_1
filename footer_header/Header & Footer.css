@@ -1,7 +1,6 @@
 header{
 	display:flex;
 	flex-direction: row;
-	padding-bottom: 20px;
 }
 
 
@@ -66,7 +65,7 @@ footer a{
 
 #SocialContainer{
 	display: flex;
-	padding-left: 510px;
+	padding-left: 730px;
 	padding-top: 15px;
 	font-family: Calibre;
 	font-style: normal;
