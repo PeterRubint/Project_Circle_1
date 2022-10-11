@@ -66,10 +66,14 @@ footer a{
 	font-weight: 500;
 	font-size: 20px;
 }
+footer img{
+	padding-right: 5px;
+}
 
 #SocialContainer{
 	display: flex;
-	padding-left: 730px;
+	flex-direction: column;
+	padding-left: 700px;
 	padding-top: 15px;
 	font-family: Calibre;
 	font-style: normal;
@@ -78,3 +82,15 @@ footer a{
 	color: #799DAB;
 	
 }
+
+#SocialMedia{
+	display: flex;
+	justify-content: space-between;
+	width: 230px;
+}
+
+#FindContainer{
+	padding-left: 50px;
+}
+
+
