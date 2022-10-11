@@ -20,7 +20,7 @@ p{
     font-family: 'Calibre';
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 40px;
     color: #FFFFFF;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -30,7 +30,7 @@ p{
     font-family: 'Calibre';
     font-style: normal;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 80px;
     line-height: 84px;
     color: white;
     margin-bottom: 20px;
@@ -40,15 +40,18 @@ h2{
     font-family: 'Calibre';
     font-style: normal;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 60px;
     color: white;
     margin-top: 40px;
+}
+h2:hover{
+    color: #C7EAF8;
 }
 #prodbox{
     display: flex;
     flex-direction: row;
     align-self: center;
-    width: 80%;
+    width: 90%;
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
