@@ -1,3 +1,4 @@
+@font-face { font-family: CalibreSemibold; src: url(../Resources/Calibre-Semibold.otf}
 #container {
 	
     display: grid;
@@ -11,7 +12,7 @@ main{
 	
 	grid-column: 1/6;
 	grid-row: 1/6;
-	margin-top: 75px;
+	height: 640px;
 
 	background-color: #DCF1F9;
 }
@@ -21,8 +22,8 @@ main{
 	grid-row: 1/2;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	padding-top: 22px;
-	padding-left: 50px;
+	padding-top: 80px;
+	padding-left: 55px;
 	height: 70px;
 	
 	font-family: 'Calibre';
@@ -39,7 +40,7 @@ main{
 	display: flex;
 	flex-direction: column;
 	
-	padding-left: 55px;
+	padding-left: 60px;
 	padding-top: 15px;
 	height: 800px;
 	width: 570px;
@@ -47,7 +48,18 @@ main{
 
 .stories{
 	font-family: 'Calibre';
-	font-style: normal;
+	font-weight: 650;
+	font-size: 20px;
+	line-height: 30px;
+
+	color: #799DAB;
+}
+
+.storiesnames{
+	margin-top: -18px;
+	
+	font-family: 'Calibre';
+	font-style: italic;
 	font-weight: 600;
 	font-size: 20px;
 	line-height: 30px;
@@ -59,12 +71,10 @@ main{
 	display: flex;
 	flex-direction: column;
 	
-	padding-right: 60px;
+	padding-right: 40px;
 }
 
 footer{
 	grid-column: 1/6;
 	grid-row: 6/6;
-	
-	background-color: green;
 }
