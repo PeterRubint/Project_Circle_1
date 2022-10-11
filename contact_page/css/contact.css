@@ -9,47 +9,7 @@ body{
 	grid-template-columns: repeat(5, 1fr);
 	justify-content: center;
 }
-.header{
-	grid-column: 1/6;
-	border: 2px white; solid;
-	background-color: white;
-	margin: -15px;
-	height: 120px;
-}
-img.img1{
-	position: absolute;
-	left: 20px;
-	top: 30px;
-	width: 213px;
-	height: 68px;
-}
-a.linked{
-	color: #799DAB;
-	flex: 40%%;
-	padding: 100px;
-	font-weight: bolder;
-}
-a.linked:link, a.linked:visited{
-	color: #799DAB;
-	text-decoration: none;
-}
-a.linked:hover{
-	color: #74DBF7;
-	text-decoration: none;
-}
-a.linked:active{
-	color: lightblue;
-	text-decoration: none;
-}
-div.headerbuttons{
-	display: flex;
-	position: absolute;
-	left: 300px;
-	top: -50px;
-	padding: 10px;
-	font-size: 20px;
-	text-align: center;
-}
+
 div.details{
 	grid-column: 1/2;
 	color: #799DAB;
@@ -131,8 +91,8 @@ input.inpu{
 }
 .circle{
 	border: 2px solid #799DAB;
-	height: 220px;
-	width: 220px;
+	height: 200px;
+	width: 200px;
 	border-radius: 50%;
 	position: absolute;
 	bottom: 50px;
@@ -140,8 +100,8 @@ input.inpu{
 }
 .circle1{
 	border: 2px solid #799DAB;
-	height: 220px;
-	width: 220px;
+	height: 200px;
+	width: 200px;
 	border-radius: 50%;
 	position: absolute;
 	bottom: 50px;
@@ -149,8 +109,8 @@ input.inpu{
 }
 div.forcircle1{
 	position: absolute;
-	bottom: 110px;
-	left: 127px;
+	bottom: 90px;
+	left: 110px;
 	text-align: center;
 	color: #799DAB;
 }
@@ -161,8 +121,8 @@ a.hi{
 }
 div.forcircle2{
 	position: absolute;
-	bottom: 110px;
-	left: 412px;
+	bottom: 90px;
+	left: 390px;
 	text-align: center;
 	color: #799DAB;
 }
@@ -243,7 +203,21 @@ footer{
 	padding-left: 35px;
 }
 
-footer a{
+footer{
+	grid-column: 1/6;
+	display: flex;
+	margin: -25px;
+	align-content: flex-start;
+	color: #799DAB;
+	font-family: Calibre;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	position: absolute;
+	bottom: -110px;
+	width: 1550px;
+}
+a{
 	display: flex;
 	margin: 25px;
 	align-content: flex-start;
