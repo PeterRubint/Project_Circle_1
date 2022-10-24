@@ -18,6 +18,29 @@
 				<a class="menu" href="../about/About us.html"><b>ABOUT US</b></a> 
 				<a class="menu" href="../products/Product.html"><b>PRODUCTS</b></a>
 			</div>
+			<div class="dropdown">
+					<button class="drop" onclick="myFunction()">Arrow</button>
+					<div class="dropdown-content" id="DropID">
+						<h1><b>menu</b></h1>
+						<a href="../index.html">HOME</a>
+						<a href="../contact_page/contact page.html">CONTACT</a>
+						<a href="../about/About us.html">ABOUT US</a>
+						<a href="../products/Product.html">PRODUCTS</a>
+					</div>
+			</div>
+			<script>
+			function myFunction(){
+			  document.getElementById("DropID").classList.toggle("show");
+			}
+			window.onclick = function(e) {
+			  if (!e.target.matches('.drop')) {
+			  var myDropdown = document.getElementById("DropID");
+				if (myDropdown.classList.contains('show')) {
+				  myDropdown.classList.remove('show');
+				}
+			  }
+			}
+			</script>
 		</header>
 																						<h1>yo</h1>
 		<footer>
