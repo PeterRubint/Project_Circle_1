@@ -13,3 +13,4 @@ Website in development for the first project period of Information Technology at
 </ol>
 <p>Host: https://peterrubint.github.io/Project_Circle_1/</p>
 <a href="https://www.flaticon.com/authors/freepik" title="Icons">Icons courtesy of freepik</a>
+<a href="https://www.flaticon.com/free-icons/information" title="information icons">Information icons created by Freepik - Flaticon</a>

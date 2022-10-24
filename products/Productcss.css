@@ -39,7 +39,8 @@ li {
     display:inline;
 }
 main {
-    grid-column: 1/6;
+    grid-column: 1/5;
+    margin-left: 30px;
     font-family: 'Calibre';
     font-style: normal;
     font-weight: 500;
@@ -48,7 +49,8 @@ main {
     color:#799DAB;
 }
 main>.workspace {
-    grid-column: 1/4;
+    grid-column: 2/5;
+    margin-right: -50px;
     background-color: cadetblue;
     display: flex;
     justify-content: center;
@@ -162,18 +164,22 @@ main>.workspace {
     padding-right: -50px;
     margin: 0px;
 }
-
 header{
     grid-column: 1/6;
+    margin-left: -15px;
+    margin-top: -15px;
+    padding-right: 30px;
     display:flex;
-    background-color: white;
     flex-direction: row;
+    background-color: white;
+    width: 100%;
 }
 
 
 .menu{
     display:inline;
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 #img{
@@ -190,10 +196,10 @@ header{
     justify-content: space-around;
     width: 100%;
     height: 30px;
-    padding-top: 20px;
+    padding-top: 25px;
 }
 a{
-    font-family: Calibre;
+    font-family: 'Calibre';
     font-style: normal;
     font-weight: 700;
     font-size: 23px;
@@ -203,21 +209,24 @@ a{
 }
 
 footer{
-    grid-column: 1/6;
     display: flex;
-    background-color: white;
-}
-
-#ContactContainer{
-    display: flex;
-    width: 200px;
-    font-family: Calibre;
+    font-family: 'Calibre';
     font-style: normal;
+    justify-content: space-evenly;
     font-weight: 700;
     font-size: 13px;
     color: #799DAB;
     padding-top: 30px;
     padding-left: 35px;
+    background-color: white;
+    width: 100%;
+}
+
+.ContactContainer{
+    display: flex;
+    width: 200px;
+    font-family: 'Calibre';
+
 }
 
 footer a{
@@ -225,23 +234,40 @@ footer a{
     margin: 25px;
     align-content: flex-start;
     color: #799DAB;
-    font-family: Calibre;
+    font-family: 'Calibre';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
 }
+footer img{
+    padding-right: 5px;
+}
 
-#SocialContainer{
+.SocialContainer {
     display: flex;
-    padding-left: 0px;
+    flex-direction: column;
     padding-top: 15px;
-    font-family: Calibre;
+    font-family: 'Calibre';
     font-style: normal;
     font-weight: 700;
     font-size: 13px;
     color: #799DAB;
 
 }
+
+
+.SocialMedia{
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+}
+
+#FindContainer{
+    padding-left: 50px;
+}
+
+
+
 @media screen and (max-width: 576px) {
     p{
         margin-left: 10px;
