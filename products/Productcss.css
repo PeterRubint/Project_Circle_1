@@ -242,3 +242,12 @@ footer a{
     color: #799DAB;
 
 }
+@media screen and (max-width: 576px) {
+    p{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    h3{
+        margin-left: 10px;
+    }
+}
