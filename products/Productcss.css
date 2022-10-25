@@ -173,8 +173,18 @@ header{
     background-color: white;
     width: 100%;
 }
-
-
+#prodbox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    grid-column: 1/6;
+    
+    
+}
 .menu{
     display:inline;
     padding-top: 15px;
