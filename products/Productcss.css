@@ -82,16 +82,7 @@ main>.workspace {
     padding-right: -50px;
     margin: 0px;
 }
-header{
-    grid-column: 1/6;
-    margin-left: -15px;
-    margin-top: -15px;
-    padding-right: 30px;
-    display:flex;
-    flex-direction: row;
-    background-color: white;
-    width: 100%;
-}
+
 #prodbox{
     display: flex;
     flex-direction: column;
@@ -187,11 +178,11 @@ footer img{
 }
 
 hr {
-	grid-column: 1/6;
+    display: block;
 	height: 10px;
-	width: 100%;
+    width: 100%;
 	background-color: white;
-	box-shadow: 0px;
+    border: 0;
 }
 
 .SocialMedia{
