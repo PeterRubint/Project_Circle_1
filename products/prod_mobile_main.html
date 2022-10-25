@@ -3,7 +3,8 @@
 <head>
     <link rel="icon" type="image/x-icon" href="../Resources/favicon.png">
     <link rel="stylesheet" type="text/css" href="Productcss.css">
-    <link rel="stylesheet" href="footer_header/Header & Footer.css">
+    <link rel="stylesheet" href="../footer_header/Header & Footer.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8">
     <title>Circle Solutions - Products</title>
 </head>
@@ -12,22 +13,32 @@
         if(window.innerWidth>576) window.location = "Product.html"
     </script>
 <div id="grid">
-<header>
-    <div id="img">
-        <img
-                class="menu"
-                src="circle solutions_logo_03.png"
+    <header>
+        <div id="img">
+        <img 
+                src="../Resources/circle solutions_logo_03.png"
                 alt="Logo"
-                width="213px" height="68px"
-        >
-    </div>
-    <div id="updog">
-        <a class="menu" href="../index.html"><b>HOME</b></a>
-		<a class="menu" href="../contact_page/contact page.html"><b>CONTACT</b></a>
-		<a class="menu" href="../about/About us.html"><b>ABOUT US</b></a> 
-		<a class="menu" href="Product.html"><b style="color: #74DBF7;">PRODUCTS</b></a>
-    </div>
-</header>
+                width="213px" height="68px" 
+            >
+        </div>
+        <div id="updog">
+            <a class="menu" href="../index.html"><b>HOME</b></a>
+            <a class="menu" href="../contact_page/contact page.html"><b>CONTACT</b></a>
+            <a class="menu" href="../about/About us.html"><b>ABOUT US</b></a> 
+            <a class="menu" href="../products/Product.html"><b>PRODUCTS</b></a>
+        </div>
+        <div class="dropdown">
+                <button class="drop" onclick="myFunction()">Arrow</button>
+                <div class="dropdown-content" id="DropID">
+                    <h1><b>menu</b></h1>
+                    <a href="../index.html">HOME</a>
+                    <a href="../contact_page/contact page.html">CONTACT</a>
+                    <a href="../about/About us.html">ABOUT US</a>
+                    <a href="../products/Product.html">PRODUCTS</a>
+                </div>
+        </div>
+        
+    </header>
     <main>
         <h3>
             Our products
@@ -36,11 +47,11 @@
         <p>everything you  need for effective project work is included: <i>plannings, documents, notes,</i> they <b>are all easily available from various platforms.</b></p>
         <p><i>Optional modules provide extra features to tailor the application to your needs.</i></p>
         <br>
-        <a style="text-align: left; font-size: 30px;"href="x" id="productlink"><p>more information below</p></a>
+        <a style="text-align: left; font-size: 30px; background-color: #74DBF7;"href="x" class="prodlink"><p>more information below</p></a>
     </main>
     <div id="prodbox">
-        <a href="products/Product.html"><h2>CIRCLE WORKSPACE</h2></a>
-        <a href="products/Product.html"><h2>CIRCLE D.O.T.S</h2></a>
+        <a href="products/Product.html" class="prodlink"><h2>CIRCLE WORKSPACE</h2></a>
+        <a href="products/Product.html" class="prodlink"><h2>CIRCLE D.O.T.S</h2></a>
     </div> 
 </div>
 </html>
