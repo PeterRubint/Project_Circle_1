@@ -18,6 +18,10 @@ body{
 }
 header{
     background-color: white;
+    margin-left: -15px;
+    margin-top: -15px;
+    padding-right: 30px;
+    padding-bottom: 10px;
 }
 p{
     font-family: 'Calibre';

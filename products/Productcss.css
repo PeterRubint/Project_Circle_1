@@ -1,7 +1,10 @@
 #grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+<<<<<<< HEAD
 	width: 100%;
+=======
+>>>>>>> cd8f215af264d4415d11e0cf4ccbaf67e1900d57
     margin: 0 auto;
     justify-content: center;
     grid-gap: 10px;
@@ -174,8 +177,18 @@ header{
     background-color: white;
     width: 100%;
 }
-
-
+#prodbox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    grid-column: 1/6;
+    
+    
+}
 .menu{
     display:inline;
     padding-top: 15px;
@@ -207,6 +220,33 @@ a{
     color: #799DAB;
     text-decoration: none;
 }
+
+footer{
+    display: flex;
+    background-color: white;
+}
+
+.ContactContainer{
+    display: flex;
+    width: 200px;
+    font-family: 'Calibre';
+
+}
+
+footer a{
+    display: flex;
+    margin: 25px;
+    align-content: flex-start;
+    color: #799DAB;
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+footer img{
+    padding-right: 5px;
+}
+
 
 #dots {
 	grid-column: 1/6;
@@ -240,6 +280,20 @@ a{
 	margin-left: 40px;
 	padding-top: 45px;
 	width: 70%;
+	margin-left: 0px;
+	padding-top: 40px;
+	width: 78%;
+}
+.SocialContainer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    color: #799DAB;
+
 }
 
 hr {
