@@ -210,7 +210,6 @@ a{
 
 footer{
     display: flex;
-<<<<<<< HEAD
     background-color: white;
 }
 
@@ -224,7 +223,6 @@ footer{
 	font-family: arial;
 	font-size: 2px;
 	color: white;
-=======
     font-family: 'Calibre';
     font-style: normal;
     justify-content: space-evenly;
@@ -253,13 +251,11 @@ footer a{
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
->>>>>>> c67e90c9ad9579cd4f57ad08e3131e06cbcc50f5
 }
 footer img{
     padding-right: 5px;
 }
 
-<<<<<<< HEAD
 #dots {
 	display: flex;
 	flex-wrap: wrap;
@@ -290,7 +286,7 @@ footer img{
 	margin-left: 0px;
 	padding-top: 40px;
 	width: 78%;
-=======
+}
 .SocialContainer {
     display: flex;
     flex-direction: column;
@@ -324,5 +320,4 @@ footer img{
     h3{
         margin-left: 10px;
     }
->>>>>>> c67e90c9ad9579cd4f57ad08e3131e06cbcc50f5
 }
