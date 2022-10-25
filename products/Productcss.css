@@ -280,10 +280,8 @@ footer img{
 	margin-left: 40px;
 	padding-top: 45px;
 	width: 70%;
-	margin-left: 0px;
-	padding-top: 40px;
-	width: 78%;
 }
+
 .SocialContainer {
     display: flex;
     flex-direction: column;
