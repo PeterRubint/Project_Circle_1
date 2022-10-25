@@ -1,7 +1,7 @@
 #grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-
+	width: 100%;
     margin: 0 auto;
     justify-content: center;
     grid-gap: 10px;
@@ -39,7 +39,7 @@ li {
     display:inline;
 }
 main {
-    grid-column: 1/5;
+    grid-column: 1/6;
     margin-left: 30px;
     font-family: 'Calibre';
     font-style: normal;
@@ -208,77 +208,27 @@ a{
     text-decoration: none;
 }
 
-footer{
-    display: flex;
-<<<<<<< HEAD
-    background-color: white;
-}
-
-#blankrectangle {
-	background-color: white;
-	height: 20px;
-	margin-top: 20px;
-}
-
-#blank{
-	font-family: arial;
-	font-size: 2px;
-	color: white;
-=======
-    font-family: 'Calibre';
-    font-style: normal;
-    justify-content: space-evenly;
-    font-weight: 700;
-    font-size: 13px;
-    color: #799DAB;
-    padding-top: 30px;
-    padding-left: 35px;
-    background-color: white;
-    width: 100%;
-}
-
-.ContactContainer{
-    display: flex;
-    width: 200px;
-    font-family: 'Calibre';
-
-}
-
-footer a{
-    display: flex;
-    margin: 25px;
-    align-content: flex-start;
-    color: #799DAB;
-    font-family: 'Calibre';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
->>>>>>> c67e90c9ad9579cd4f57ad08e3131e06cbcc50f5
-}
-footer img{
-    padding-right: 5px;
-}
-
-<<<<<<< HEAD
 #dots {
+	grid-column: 1/6;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: flex-start;
 }
 
 #dottitle{
-	margin-left: 30px;
-	margin-right: 1100px;
+	width: 100%;
+	margin-left: 10px;
 }
 
 .circles {
 	display: flex;
 	align-items: center;
-	margin-left: 30px;
-	padding-left: 40px;
+	margin-left: 10px;
+	
+	text-align: center;
 	
 	height: 240px;
-	width: 200px;
+	width: 240px;
 	
 	border-style: solid;
 	border-width: 10px;
@@ -287,22 +237,18 @@ footer img{
 }
 
 .dottext{
-	margin-left: 0px;
-	padding-top: 40px;
-	width: 78%;
-=======
-.SocialContainer {
-    display: flex;
-    flex-direction: column;
-    padding-top: 15px;
-    font-family: 'Calibre';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 13px;
-    color: #799DAB;
-
+	margin-left: 40px;
+	padding-top: 45px;
+	width: 70%;
 }
 
+hr {
+	grid-column: 1/6;
+	height: 10px;
+	width: 100%;
+	background-color: white;
+	box-shadow: 0px;
+}
 
 .SocialMedia{
     display: flex;
@@ -324,5 +270,4 @@ footer img{
     h3{
         margin-left: 10px;
     }
->>>>>>> c67e90c9ad9579cd4f57ad08e3131e06cbcc50f5
 }
