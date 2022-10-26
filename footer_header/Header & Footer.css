@@ -209,6 +209,13 @@ footer{
 
 #SocialContainer{
 	padding-left: 150px;
+	align-items: center;
+	width: 576px;
+	padding-left: 0px;
+}
+
+#SocialContainer h1{
+	padding-left: 30px;
 }
 
 #SocialMedia{
