@@ -54,6 +54,7 @@ main>.workspace {
     background-color: cadetblue;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .WorkspaceImage {
     background-image: url("Three-circles.png");
