@@ -47,10 +47,14 @@ main {
     line-height: 40px;
     color:#799DAB;
 }
-main>.workspace {
-    grid-column: 2/5;
-    margin-right: -50px;
-    background-color: cadetblue;
+.container {
+    max-width: 1800px;
+    margin: auto;
+    width: 100%;
+}
+main>.Workspace {
+    flex-direction: column;
+    background-color: #dcf1f9;
     display: flex;
     justify-content: center;
     align-items: center;
