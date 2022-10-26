@@ -94,14 +94,14 @@ footer img{
 #SocialContainer{
 	display: flex;
 	flex-direction: column;
-	padding-left: 700px;
+	align-items: flex-end;
 	padding-top: 15px;
 	font-family: Calibre;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 13px;
 	color: #799DAB;
-	
+	width: 950px;
 }
 
 #SocialMedia{
@@ -111,7 +111,7 @@ footer img{
 }
 
 #FindContainer{
-	padding-left: 50px;
+	padding-right: 50px;
 }
 
 
@@ -190,9 +190,6 @@ footer img{
   display: block;
 }
 
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
-}
 
 footer{
 	display: flex;
