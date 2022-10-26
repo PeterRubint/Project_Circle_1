@@ -4,6 +4,7 @@ body{
 #whole_page{
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
+	margin:0;
 }
 
 .menu{
