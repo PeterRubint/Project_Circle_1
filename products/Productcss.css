@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 	width: 100%;
-    margin: 0 auto;
     justify-content: center;
     grid-gap: 10px;
     font-family: 'Calibre';
@@ -10,6 +9,8 @@
 }
 body {
     background-color: #DCF1F9;
+    margin: 0;
+    padding: 0;
 }
 .logo {
     display: flex;
@@ -28,7 +29,6 @@ br {
     margin-top:30px;
 }
 ul {
-    life-style-type:none;
     padding:0;
     margin:0;
 }
@@ -91,8 +91,6 @@ main>.workspace {
     align-items: center;
     margin-bottom: 30px;
     grid-column: 1/6;
-    margin-left: 5px;
-    margin-right: 5px;
     
 }
 .prodlink{
