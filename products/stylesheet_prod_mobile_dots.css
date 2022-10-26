@@ -1,0 +1,101 @@
+#grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+	width: 100%;
+    justify-content: center;
+    grid-gap: 10px;
+    font-family: 'Calibre';
+    background-color: #DCF1F9;
+}
+body {
+    background-color: #DCF1F9;
+    margin: 0;
+    padding: 0;
+}
+main {
+    grid-column: 1/6;
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color:#799DAB;
+}
+
+#dottitle{
+	width: 100%;
+}
+
+#titledots{
+	margin-left: 30px;
+	font-size: 60px;
+}
+
+.circles {
+	display: flex;
+	align-items: center;	
+	text-align: center;
+	
+	height: 240px;
+	width: 240px;
+	
+	border-style: solid;
+	border-width: 10px;
+	border-color: white;
+	border-radius: 200px;
+	
+	font-size: 30px; 
+	color: #799DAB;
+}
+
+.dottext{
+	font-size: 30px;
+	
+	margin-top: 20px;
+	padding-left: 30px;
+	width: 80%;
+	
+}
+
+a{
+	display: flex;
+	justify-content: center;
+	
+	font-size: 30px; 
+	color: #799DAB;
+}
+
+.joeysWork{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap; 
+	flex-direction: column;
+}
+
+.joeysWork a {
+	margin-top: 1.2em;
+	
+}
+
+.prices {
+    grid-column: 1/6;
+    vertical-align: baseline;
+    line-height: 1;
+    flex-wrap:wrap;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+footer{
+	grid-column: 1/6;
+	align-items:center;
+	
+}
+
+#FindContainer {
+	padding-right:0px;
+}
+
