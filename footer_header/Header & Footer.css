@@ -4,10 +4,8 @@ header{
 	flex-direction: row;
 	background-color: white;
 	width: 100%;
-	margin-left: -15px;
-    margin-top: -15px;
-    padding-right: 30px;
-    padding-bottom: 10px;
+	grid-row-start: 1;
+	height: 98px;
 }
 
 header img{
@@ -33,6 +31,7 @@ header img{
 	flex-direction: row;
 	width: 25%;
 	padding-left: 20px;
+	height: 98px;
 }
 
 #updog{
@@ -98,14 +97,14 @@ footer img{
 #SocialContainer{
 	display: flex;
 	flex-direction: column;
-	padding-left: 700px;
+	align-items: flex-end;
 	padding-top: 15px;
 	font-family: Calibre;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 13px;
 	color: #799DAB;
-	
+	width: 950px;
 }
 
 #SocialMedia{
@@ -115,7 +114,7 @@ footer img{
 }
 
 #FindContainer{
-	padding-left: 50px;
+	padding-right: 50px;
 }
 
 
@@ -194,9 +193,6 @@ footer img{
   display: block;
 }
 
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
-}
 
 footer{
 	display: flex;
@@ -213,6 +209,13 @@ footer{
 
 #SocialContainer{
 	padding-left: 150px;
+	align-items: center;
+	width: 576px;
+	padding-left: 0px;
+}
+
+#SocialContainer h1{
+	padding-left: 30px;
 }
 
 #SocialMedia{

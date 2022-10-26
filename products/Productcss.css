@@ -54,6 +54,7 @@ main>.workspace {
     background-color: cadetblue;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .WorkspaceImage {
     background-image: url("Three-circles.png");
@@ -190,8 +191,10 @@ footer img{
 }
 
 .dottext{
-	margin-left: 40px;
-	padding-top: 45px;
+	font-size: 28px;
+	
+	margin-top: 90px;
+	padding-left: 30px;
 	width: 70%;
 }
 
