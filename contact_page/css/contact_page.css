@@ -68,12 +68,14 @@ input[type=text],input[type=email]{
 	height: 66px;
 	background-color: ghostwhite;
 	cursor: auto;
+	border: 0px;
 }
 textarea{
 	width: 94.5%;
 	resize: none;
 	height: 200px;
 	background-color: ghostwhite;
+	border: 0px;
 }
 input[type=submit]{
 	color: #799DAB;
@@ -84,6 +86,7 @@ input[type=submit]{
 	font-style: normal;
 	font-weight: bolder;
 	font-size: 25px;
+	border: 0px
 }
 .label{
 	color: #799DAB;
