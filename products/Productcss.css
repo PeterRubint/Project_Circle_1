@@ -62,9 +62,10 @@ main>.Workspace {
 }
 .WorkspaceImage {
     background-image: url("Three-circles.png");
+    background-repeat: no-repeat;
     background-size: 1000px;
     width: 1000px;
-    height: 700px;
+    height: 800px;
 }
 
 
@@ -81,13 +82,11 @@ main>.Workspace {
 }
 .prices>img {
     display:flex;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    max-width: 50%;
+    max-width: 40%;
     flex-direction: row;
-    padding-left: -50px;
-    padding-right: -50px;
-    margin: 0px;
+    margin-top: -50px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 #prodbox{
@@ -121,7 +120,7 @@ main>.Workspace {
     font-size: 8px;
     font-family: 'Calibre';
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .WorkspaceContent>p {
     color: #799DAB;
