@@ -30,6 +30,7 @@ p{
     color: #FFFFFF;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 20px;
 }
 #vision{
     font-family: 'Calibre';
@@ -39,6 +40,7 @@ p{
     line-height: 84px;
     color: white;
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 h2{
     font-family: 'Calibre';
@@ -63,6 +65,7 @@ h2:hover{
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: 20px;
 }
 #contacttext{
     font-family: 'Calibre';
