@@ -8,13 +8,10 @@
     <title>Circle Solutions - Products</title>
 </head>
 <body>
-	<script>
-        if(window.innerWidth<=844) window.location = "prod_mobile_main.html"
-    </script>
+
 	<header>
 		<div id="img">
 			<img
-					class="menu"
 					src="circle solutions_logo_03.png"
 					alt="Logo"
 					width="213px" height="68px"
@@ -22,17 +19,18 @@
 		</div>
 		<div id="updog">
 			<a class="menu" href="../index.html"><b>HOME</b></a>
-			<a class="menu" href="../contact_page/contact page.html"><b>CONTACT</b></a>
+			<a class="menu" href="../contact_page/contact_page.html"><b>CONTACT</b></a>
 			<a class="menu" href="../about/About us.html"><b>ABOUT US</b></a> 
 			<a class="menu" href="Product.html"><b style="color: #74DBF7;">PRODUCTS</b></a>
 		</div>
 	</header>
 	<div id="grid">
 		<main>
-			<h3>
+			<div class="container">
+			<h3 style="margin-left: 20px;">
 				Our products
 			</h3>
-			<p> <i>are highly specialized software packages</i>,  developed with the <b>purpose of making projects more accessible.</b><br>
+			<p style="margin-bottom: 200px; margin-left: 20px;"> <i>are highly specialized software packages</i>,  developed with the <b>purpose of making projects more accessible.</b><br>
 				everything you  need for effective project work is included: <i>plannings, documents, notes,</i> they <b>are all easily available from various platforms.</b>
 				<br><i>Optional modules provide extra features to tailor the application to
 				your needs.</i>
@@ -40,8 +38,10 @@
 				more details below.
 
 			</p>
+
+			<h2>CIRCLE WORKSPACE</h2>
+
 			<div class="Workspace">
-				<h3>CIRCLE WORKSPACE</h3>
 				<div class="WorkspaceImage"></div>
 			</div>
 			<div class="prices">
@@ -54,26 +54,26 @@
 			<div id="dots">
 				<h2 id="dottitle">CIRCLE D.O.T.S.</h2>
 				<p class="circles"> <b> Internal communication </b> </p>
-				<p class="dottext" style="font-size: 28px;"> Keep everyone informed, no matter the change, having everyone on the same page is a challenge for global businesses. 
+				<p class="dottext"> Keep everyone informed, no matter the change, having everyone on the same page is a challenge for global businesses. 
 				<b> Circle D.O.T.S. </b> makes it easy to target and <i> distribute news to the right people, analyse the impact and optimize the message. </i>
 				The result? <b> Everyone gets where you’re going. </b> </p>
 				<p class="circles"> <b> Connect and Engage </b> </p>
-				<p class="dottext" style="font-size: 27px;"> Connect your colleagues and engage communities. If people don’t know each other, they can’t trust each other. 
+				<p class="dottext" style="font-size: 27px; margin-top: 70px;"> Connect your colleagues and engage communities. If people don’t know each other, they can’t trust each other. 
 				If teams don’t know what they’re doing, they can’t help each other. <b> Circle D.O.T.S. </b> <i> connects teams and people </i> in an organic way – 
 				by letting them form Channels and Pages around projects, interests or social initiatives. <b> No more unfamiliar faces, even if you’re fully remote. </b> </p>
 				<p class="circles"> <b> Knowledge management </b> </p>
-				<p class="dottext" style="font-size: 28px;"> When people say <i> “I love my job” </i>, they’re not talking about the 7.6 hours per week spent trying to find information they need to
+				<p class="dottext"> When people say <i> “I love my job” </i>, they’re not talking about the 7.6 hours per week spent trying to find information they need to
 				do their work. <b> Circle D.O.T.S. </b> brings all your disparate <i> resources, applications </i> and <i> knowledge </i> <b> together in one easily structured 
 				and searchable hub. </b> </p>
 				<p class="circles"> <b> Analyse and Optimize </b> </p>
-				<p class="dottext" style="font-size: 28px;"> For a better working environment, <i> what can be measured, can be improved </i>. <b> Circle D.O.T.S. </b> helps you to shift from
+				<p class="dottext"> For a better working environment, <i> what can be measured, can be improved </i>. <b> Circle D.O.T.S. </b> helps you to shift from
 				a <i> “send and forget” </i> to an <i> “analyse and optimize” </i> mindset, making it easier to experiment and evaluate in a <i> data-driven way </i>. 
 				The secret weapon? <b> The world's friendliest Analytics dashboard. </b> </p>
 			</div>
-			
 			<div class="prices">
-				<img src="Team2.png" alt="teams" title="team">
-				<img src="Company2.png" alt="Company" title="company">
+				<img src="team2.png" alt="teams" title="team">
+				<img src="company2.png" alt="Company" title="company">
+			</div>
 			</div>
 		</main>
 	</div>
@@ -134,4 +134,12 @@
 			</div>
     </footer>
 </html>
-<!-- TODO: put images and text, when header and footer is done put it on page -->
+<script>
+	window.onload =function(){
+		console.log("yes");
+	if(window.innerWidth<=844) {
+		window.location = "prod_mobile_main.html";
+
+	}};
+
+</script>
