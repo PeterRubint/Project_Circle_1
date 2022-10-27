@@ -26,18 +26,29 @@ a{
 .find_out{
 	font-size: 70px;
 	margin-left: 20px;
+	line-height: 42px;
+	font-weight: 700;
+	
+
 }
 .ask_for_more{
 	font-size: 35px;
 	margin-left: 20px;
+	font-weight: 500;
+	line-height: 0px;
+
 }
 .or{
 	font-size: 35px;
 	margin-left: 20px;
+	font-weight: 700;
+	line-height: 42px;
 }
 .request_a_demonstration{
 	font-size: 35px;
 	margin-left: 20px;
+	font-weight: 500;
+	line-height: 42px;
 }
 .using_the_form{
 	visibility: hidden;
@@ -86,8 +97,8 @@ input[type=submit]{
 	grid-column: 1/2;
 	box-sizing: border-box;
 	position: absolute;
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 250px;
 	left: 96px;
 	top: 600px;	
 	border: 2px solid #799DAB;
@@ -97,12 +108,12 @@ input[type=submit]{
 	position: absolute;
 	width: 227px;
 	height: 110px;
-	left: -12px;
-	top: 50px;
+	left: 13px;
+	top: 75px;
 	font-family: 'Calibre';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 18px;
+	font-size: 22px;
 	line-height: 26px;
 	text-align: center;
 	color: #799DAB;
@@ -111,8 +122,8 @@ input[type=submit]{
 	grid-column: 3/4;
 	box-sizing: border-box;
 	position: absolute;
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 250px;
 	left: 450px;
 	top: 600px;
 	border: 2px solid #799DAB;
@@ -123,12 +134,12 @@ input[type=submit]{
 	position: absolute;
 	width: 227px;
 	height: 110px;
-	left: -12px;
-	top: 50px;
+	left: 13px;
+	top: 75px;
 	font-family: 'Calibre';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 18px;
+	font-size: 22px;
 	line-height: 26px;
 	text-align: center;
 	color: #799DAB;
@@ -214,7 +225,7 @@ footer{
 		background-color: white;
 		width: 100%;
 		position: relative;
-		top: 450px;
+		top: 500px;
 	}
 	.the_circles{
 		visibility: hidden;
