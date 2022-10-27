@@ -81,6 +81,8 @@ main>.Workspace {
 }
 .prices>img {
     display:flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
     max-width: 50%;
     flex-direction: row;
     padding-left: -50px;
