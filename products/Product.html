@@ -8,9 +8,7 @@
     <title>Circle Solutions - Products</title>
 </head>
 <body>
-	<script>
-        if(window.innerWidth<=844) window.location = "prod_mobile_main.html"
-    </script>
+
 	<header>
 		<div id="img">
 			<img
@@ -29,10 +27,10 @@
 	<div id="grid">
 		<main>
 			<div class="container">
-			<h3>
+			<h3 style="margin-left: 20px;">
 				Our products
 			</h3>
-			<p style="margin-bottom: 200px;"> <i>are highly specialized software packages</i>,  developed with the <b>purpose of making projects more accessible.</b><br>
+			<p style="margin-bottom: 200px; margin-left: 20px;"> <i>are highly specialized software packages</i>,  developed with the <b>purpose of making projects more accessible.</b><br>
 				everything you  need for effective project work is included: <i>plannings, documents, notes,</i> they <b>are all easily available from various platforms.</b>
 				<br><i>Optional modules provide extra features to tailor the application to
 				your needs.</i>
@@ -40,7 +38,9 @@
 				more details below.
 
 			</p>
+
 			<h2>CIRCLE WORKSPACE</h2>
+
 			<div class="Workspace">
 				<div class="WorkspaceImage"></div>
 			</div>
@@ -70,10 +70,10 @@
 				a <i> “send and forget” </i> to an <i> “analyse and optimize” </i> mindset, making it easier to experiment and evaluate in a <i> data-driven way </i>. 
 				The secret weapon? <b> The world's friendliest Analytics dashboard. </b> </p>
 			</div>
-			</div>
 			<div class="prices">
 				<img src="team2.png" alt="teams" title="team">
 				<img src="company2.png" alt="Company" title="company">
+			</div>
 			</div>
 		</main>
 	</div>
@@ -134,4 +134,12 @@
 			</div>
     </footer>
 </html>
-<!-- TODO: put images and text, when header and footer is done put it on page -->
+<script>
+	window.onload =function(){
+		console.log("yes");
+	if(window.innerWidth<=844) {
+		window.location = "prod_mobile_main.html";
+
+	}};
+
+</script>
