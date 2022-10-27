@@ -3,7 +3,20 @@ body{
 }
 #whole_page{
 	display: grid;
-	grid-template-columns: repeat(6, 1fr);
+	grid-template-columns: repeat(5, 1fr);
+	margin: 0;
+}
+header{
+	grid-column: 1/6;
+}
+a{
+	font-family: Calibre;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 23px;
+	text-align: center;
+	color: #799DAB;
+	text-decoration: none;
 }
 .find_out_more{
 	grid-column: 1/4;
@@ -61,6 +74,7 @@ input[type=submit]{
 	font-weight: bolder;
 	font-size: 25px;
 	border: 0px;
+	border: 0px
 }
 .label{
 	color: #799DAB;
@@ -72,10 +86,10 @@ input[type=submit]{
 	grid-column: 1/2;
 	box-sizing: border-box;
 	position: absolute;
-	width: 250px;
-	height: 250px;
+	width: 200px;
+	height: 200px;
 	left: 96px;
-	top: 550px;	
+	top: 600px;	
 	border: 2px solid #799DAB;
 	border-radius: 50%;
 }
@@ -83,12 +97,12 @@ input[type=submit]{
 	position: absolute;
 	width: 227px;
 	height: 110px;
-	left: 15px;
-	top: 75px;
+	left: -12px;
+	top: 50px;
 	font-family: 'Calibre';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 22px;
+	font-size: 18px;
 	line-height: 26px;
 	text-align: center;
 	color: #799DAB;
@@ -97,10 +111,10 @@ input[type=submit]{
 	grid-column: 3/4;
 	box-sizing: border-box;
 	position: absolute;
-	width: 250px;
-	height: 250px;
-	left: 400px;
-	top: 550px;
+	width: 200px;
+	height: 200px;
+	left: 450px;
+	top: 600px;
 	border: 2px solid #799DAB;
 	border-radius: 50%;
 }
@@ -109,15 +123,19 @@ input[type=submit]{
 	position: absolute;
 	width: 227px;
 	height: 110px;
-	left: 15px;
-	top: 75px;
+	left: -12px;
+	top: 50px;
 	font-family: 'Calibre';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 22px;
+	font-size: 18px;
 	line-height: 26px;
 	text-align: center;
 	color: #799DAB;
+}
+footer{
+	position: relative;
+	top: 250px;
 }
 
 
