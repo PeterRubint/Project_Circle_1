@@ -131,9 +131,7 @@ footer img{
 
 #SocialContainer{
 	display: flex;
-	align-items: flex-end;
 	flex-direction: column;
-	padding-left: 700px;
 	padding-top: 15px;
 	font-family: Calibre;
 	font-style: normal;
@@ -226,29 +224,26 @@ footer img{
   display: block;
 }
 
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
-}
-
 footer{
 	display: flex;
 	flex-direction: column;
 }
 
-#ContactContainer{
-	display: none;
+#SocialContainer{
+	padding-left: 150px;
+	align-items: center;
+	width: 576px;
+	padding-left: 0px;
 }
 
-#LocationEtc{
-	display: none;
+#SocialContainer h1{
+	padding-left: 30px;
 }
 
 #SocialMedia{
 	display:flex;
 	justify-content: space-between;
 	padding-bottom: 20px;
-}
-
 }
 
 body{
