@@ -26,18 +26,15 @@ main{
 #customerstories{
 	grid-column: 1/6;
 	grid-row-start: 2;
-	margin-top: 0px;
+	margin-top: 20px;
 	margin-bottom: 0px;
-	padding-top: 80px;
-	padding-left: 55px;
-	height: 70px;
-	
+	margin-left: 20px;	
 	font-family: 'Calibre';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 65px;
 	line-height: 84px;
-
+	
 	background-color: #DCF1F9;
 	color: #799DAB;
 }
@@ -45,8 +42,7 @@ main{
 #story{
 	display: flex;
 	flex-direction: column;
-	
-	padding-left: 60px;
+	margin-left: 20px;
 	padding-top: 15px;
 	height: 800px;
 	width: 570px;

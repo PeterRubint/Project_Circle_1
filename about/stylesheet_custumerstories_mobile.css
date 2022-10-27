@@ -1,0 +1,84 @@
+#grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+	width: 100%;
+    justify-content: center;
+    grid-gap: 10px;
+    font-family: 'Calibre';
+    background-color: #DCF1F9;
+}
+
+body {
+    background-color: #DCF1F9;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    grid-column: 1/6;
+    font-family: 'Calibre';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color:#799DAB;
+}
+
+#customerstories{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 40px;
+	padding-left: 40px;
+	height: 70px;
+	
+	font-family: 'Calibre';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 65px;
+	line-height: 84px;
+
+	background-color: #DCF1F9;
+	color: #799DAB;
+}
+
+#story{
+	display: flex;
+	flex-direction: column;
+	
+	padding-left: 40px;
+	height: 800px;
+	width: 570px;
+}
+
+.stories{
+	width: 80%;
+	font-family: 'Calibre';
+	font-weight: 650;
+	font-size: 20px;
+	line-height: 30px;
+
+	color: #799DAB;
+}
+
+.storiesnames{
+	width: 80%;
+	margin-top: -18px;
+	
+	font-family: 'Calibre';
+	font-style: italic;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+
+	color: #799DAB;
+}
+
+footer{
+	grid-column: 1/6;
+	align-items:center;
+	
+}
+
+#FindContainer {
+	padding-right:0px;
+}

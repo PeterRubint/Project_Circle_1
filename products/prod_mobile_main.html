@@ -9,7 +9,9 @@
     <title>Circle Solutions - Products</title>
 </head>
 <body>
-
+<script>
+    if(window.innerWidth>576) window.location = "Product.html";
+</script>
 <div id="grid">
     <header>
         <div id="img">
@@ -41,9 +43,9 @@
         <h3>
             Our products
         </h3>
-        <p> <i>are highly specialized software packages</i>,  developed with the <b>purpose of making projects more accessible.</b></p>
-        <p>everything you  need for effective project work is included: <i>plannings, documents, notes,</i> they <b>are all easily available from various platforms.</b></p>
-        <p><i>Optional modules provide extra features to tailor the application to your needs.</i></p>
+        <p class="producttext"> <i>are highly specialized software packages</i>,  developed with the <b>purpose of making projects more accessible.</b></p>
+        <p class="producttext">everything you  need for effective project work is included: <i>plannings, documents, notes,</i> they <b>are all easily available from various platforms.</b></p>
+        <p class="producttext"><i>Optional modules provide extra features to tailor the application to your needs.</i></p>
         <br>
         <a style="text-align: left; font-size: 30px;"href="x" class="prodlink"><p>more information below</p></a>
     </main>
@@ -51,5 +53,32 @@
         <a href="ProductWorkspacePage.html" class="prodlink"><h2>CIRCLE WORKSPACE</h2></a>
         <a href="prod_mobile_dots.html" class="prodlink"><h2>CIRCLE D.O.T.S</h2></a>
     </div> 
+	<footer style="grid-column: 1/6;">
+			<div id="FindContainer">
+					<h1><b>Find us here:</b></h1>
+			</div>
+			<div id="SocialMedia">
+				<img
+					src="../Resources/twitter.png"
+					alt="Twitter"
+					width="45px" height="45px"
+				>
+				<img
+					src="../Resources/linkedin.png"
+					alt="Linkedin"
+					width="45px" height="45px"
+				>
+				<img
+					src="../Resources/facebook.png"
+					alt="Facebook"
+					width="45px" height="45px"
+				>
+				<img
+					src="../Resources/instagram.png"
+					alt="Instagram"
+					width="45px" height="45px"
+				>
+			</div>
+		</footer>	
 </div>
 </html>

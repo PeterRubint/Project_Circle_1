@@ -17,6 +17,11 @@ body{
     flex-direction: column;
     
 }
+.container {
+    max-width: 1600px;
+    margin: auto;
+    width: 100%;
+}
 p{
     font-family: 'Calibre';
     font-style: normal;
@@ -60,6 +65,7 @@ h2:hover{
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: 20px;
 }
 #contacttext{
     font-family: 'Calibre';
