@@ -57,7 +57,7 @@ main {
 	width: 80%;
 }
 
-a{
+#back{
 	display: flex;
 	justify-content: center;
 	margin-top: 90px;
