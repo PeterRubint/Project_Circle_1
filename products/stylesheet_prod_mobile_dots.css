@@ -24,12 +24,11 @@ main {
 
 #dottitle{
 	width: 100%;
-	border-bottom: 7px solid white;
 }
 
 #titledots{
 	margin-left: 30px;
-	font-size: 50px;
+	font-size: 60px;
 }
 
 .circles {
@@ -55,15 +54,14 @@ main {
 	margin-top: 20px;
 	padding-left: 30px;
 	width: 80%;
+	
 }
 
 #back{
 	display: flex;
 	justify-content: center;
-	margin-top: 90px;
-	margin-bottom: 30px;
 	
-	font-size: 45px; 
+	font-size: 30px; 
 	color: #799DAB;
 }
 
@@ -77,10 +75,6 @@ main {
 .joeysWork a {
 	margin-top: 1.2em;
 	
-}
-
-#pricebox{
-	margin-top: 40px;
 }
 
 .prices {
