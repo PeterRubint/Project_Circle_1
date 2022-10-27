@@ -63,6 +63,7 @@ h1{
 }
 
 footer{
+	grid-column: 1/7;
 	display: flex;
 	background-color: white;
 	width: 100%;
@@ -133,7 +134,7 @@ footer img{
 .drop{
 	background-color: white;
 	color: #799DAB;
-	padding-top: 38px;
+	padding-top: 46px;
 	justify-content: flex-end;
 	font-size: 16px;
 	border: none;
@@ -144,9 +145,9 @@ footer img{
 	display: flex;
 	position: relative;
 	display: inline-block;
-	padding-left: 300px;
-	padding-top: 40px;
+	padding-left: 330px;
 }
+
 
 .dropdown h1{
 	font-family: Calibre;
@@ -226,7 +227,6 @@ footer{
 }
 
 }
-
 
 
 
