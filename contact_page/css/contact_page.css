@@ -143,6 +143,10 @@ input[type=submit]{
 	text-align: center;
 	color: #799DAB;
 }
+footer{
+	position: relative;
+	top: 220px;
+}
 
 
 
