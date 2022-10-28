@@ -63,7 +63,7 @@ h1{
 }
 
 footer{
-	grid-column: 1/7;
+	grid-column: 7/1;
 	display: flex;
 	background-color: white;
 	width: 100%;
