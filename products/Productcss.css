@@ -135,9 +135,6 @@ main>.Workspace {
     background-color: rgba(0, 0, 0, 0);
 }
 .TeamCompanyImage {
-    display: flex;
-    justify-content: center;
-    flex-direction:column;
     width: 300px;
     height: 400px;
 }
@@ -232,6 +229,8 @@ hr {
 #FindContainer{
     padding-left: 50px;
 }
+<<<<<<< HEAD
+=======
 
 
 
@@ -333,3 +332,4 @@ hr {
         font-size: 2rem;
     }
 }
+>>>>>>> 76e539ca89c05d9fed30f61af0113c7df1094986
