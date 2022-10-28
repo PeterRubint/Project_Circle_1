@@ -10,33 +10,58 @@
   <title>Circle Solutions - Products</title>
 </head>
 <body>
+	<script>
+		if(window.innerWidth>576) window.location = "Product.html";
+	</script>
 <div id="grid">
-  <header>
-    <div id="img">
-      <img
-              src="../Resources/circle solutions_logo_03.png"
-              alt="Logo"
-              width="213px" height="68px"
-      >
-    </div>
-    <div id="updog">
-      <a class="menu" href="../index.html"><b>HOME</b></a>
-      <a class="menu" href="../contact_page/contact page.html"><b>CONTACT</b></a>
-      <a class="menu" href="../about/About us.html"><b>ABOUT US</b></a>
-      <a class="menu" href="../products/Product.html"><b>PRODUCTS</b></a>
-    </div>
-    <div class="dropdown">
-      <button class="drop" onclick="myFunction()">Arrow</button>
-      <div class="dropdown-content" id="DropID">
-        <h1><b>menu</b></h1>
-        <a href="../index.html">HOME</a>
-        <a href="../contact_page/contact page.html">CONTACT</a>
-        <a href="../about/About us.html">ABOUT US</a>
-        <a href="../products/Product.html">PRODUCTS</a>
-      </div>
-    </div>
-
-  </header>
+	<header>
+		<div id="img">
+		<img 
+				src="../Resources/circle solutions_logo_03.png"
+				alt="Logo"
+				width="213px" height="68px" 
+			>
+		</div>
+		<div id="updog">
+			<a class="menu" href="../index.html"><b>HOME</b></a>
+			<a class="menu" href="../contact_page/contact_page.html"><b>CONTACT</b></a>
+			<a class="menu" href="../about/About us.html"><b>ABOUT US</b></a> 
+			<a class="menu" href="../products/Product.html"><b>PRODUCTS</b></a>
+		</div>
+		<div class="dropdown">
+		<script>  
+				function myFunction(){  
+				   var click = document.getElementById("NavStuff");  
+				   if(click.style.display ==="none") {  
+					  click.style.display ="block";  
+				   } else {  
+					  click.style.display ="none";  
+				   }   
+				}  
+		</script>  
+				<button onclick="myFunction()" class="drop">
+					<img
+						src="../Resources/arrow-transparent.png"
+						alt="Phone Number"
+						width="30px" height="30px"
+					>
+				</button>
+				<div class="dropdown-content" id="DropID">
+					<div id="NavStuff">
+					<h1><b>menu</b></h1>
+						<a href="../index.html">HOME
+						<img
+							src="../Resources/home_hover-transparent.png"
+							width="17px" height="17px"
+						>
+						</a>
+						<a href="../contact_page/contact_page.html">CONTACT</a>
+						<a href="../about/About us.html">ABOUT US</a>
+						<a href="../products/Product.html">PRODUCTS</a>
+					</div>
+				</div>
+		</div>	
+	</header>
   <main>
     <div class="CircleWorkspaceHeader"><h3>CIRCLE WORKSPACE</h3></div>
   </main>
