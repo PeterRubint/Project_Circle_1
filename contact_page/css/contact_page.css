@@ -143,11 +143,6 @@ input[type=submit]{
 	text-align: center;
 	color: #799DAB;
 }
-footer{
-	position: relative;
-	top: 250px;
-}
-
 
 
 
@@ -245,6 +240,14 @@ footer{
 		position: absolute;
 		right: 60px;
 	}
+}
+@media screen and (min-width: 2000px) {
+    footer{
+        position: absolute;
+        bottom: 0;
+    }
+    
+    
 }
 
 

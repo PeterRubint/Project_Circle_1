@@ -10,33 +10,58 @@
   <title>Circle Solutions - Products</title>
 </head>
 <body>
+	<script>
+		if(window.innerWidth>576) window.location = "Product.html";
+	</script>
 <div id="grid">
-  <header>
-    <div id="img">
-      <img
-              src="../Resources/circle solutions_logo_03.png"
-              alt="Logo"
-              width="213px" height="68px"
-      >
-    </div>
-    <div id="updog">
-      <a class="menu" href="../index.html"><b>HOME</b></a>
-      <a class="menu" href="../contact_page/contact page.html"><b>CONTACT</b></a>
-      <a class="menu" href="../about/About us.html"><b>ABOUT US</b></a>
-      <a class="menu" href="../products/Product.html"><b>PRODUCTS</b></a>
-    </div>
-    <div class="dropdown">
-      <button class="drop" onclick="myFunction()">Arrow</button>
-      <div class="dropdown-content" id="DropID">
-        <h1><b>menu</b></h1>
-        <a href="../index.html">HOME</a>
-        <a href="../contact_page/contact page.html">CONTACT</a>
-        <a href="../about/About us.html">ABOUT US</a>
-        <a href="../products/Product.html">PRODUCTS</a>
-      </div>
-    </div>
-
-  </header>
+	<header>
+		<div id="img">
+		<img 
+				src="../Resources/circle solutions_logo_03.png"
+				alt="Logo"
+				width="213px" height="68px" 
+			>
+		</div>
+		<div id="updog">
+			<a class="menu" href="../index.html"><b>HOME</b></a>
+			<a class="menu" href="../contact_page/contact_page.html"><b>CONTACT</b></a>
+			<a class="menu" href="../about/About us.html"><b>ABOUT US</b></a> 
+			<a class="menu" href="../products/Product.html"><b>PRODUCTS</b></a>
+		</div>
+		<div class="dropdown">
+		<script>  
+				function myFunction(){  
+				   var click = document.getElementById("NavStuff");  
+				   if(click.style.display ==="none") {  
+					  click.style.display ="block";  
+				   } else {  
+					  click.style.display ="none";  
+				   }   
+				}  
+		</script>  
+				<button onclick="myFunction()" class="drop">
+					<img
+						src="../Resources/arrow-transparent.png"
+						alt="Phone Number"
+						width="30px" height="30px"
+					>
+				</button>
+				<div class="dropdown-content" id="DropID">
+					<div id="NavStuff">
+					<h1><b>menu</b></h1>
+						<a href="../index.html">HOME
+						<img
+							src="../Resources/home_hover-transparent.png"
+							width="17px" height="17px"
+						>
+						</a>
+						<a href="../contact_page/contact_page.html">CONTACT</a>
+						<a href="../about/About us.html">ABOUT US</a>
+						<a href="../products/Product.html">PRODUCTS</a>
+					</div>
+				</div>
+		</div>	
+	</header>
   <main>
     <div class="CircleWorkspaceHeader"><h3>CIRCLE WORKSPACE</h3></div>
   </main>
@@ -73,105 +98,7 @@
     <img src="Team1.png" alt="teams" title="team" style="margin-left: 80px; margin-top: 50px;">
   <img src="Company1.png" alt="Company" title="company" style="margin-left: 80px;"></div>
 </div>
-<!---
-	<head>
-	  <link rel="icon" type="image/x-icon" href="../Resources/favicon.png">
-	  <link rel="stylesheet" type="text/css" href="Productcss.css">
-	  <link rel="stylesheet" href="../footer_header/Header & Footer.css">
-	  <meta name="viewport" content="width=device-width, initial-scale=1" />
-	  <meta charset="UTF-8">
-	  <title>Circle Solutions - Products</title>
-	</head>
-	<body>
-		<div id="grid">
-			<header>
-				<div id="img">
-				  <img
-						  src="../Resources/circle solutions_logo_03.png"
-						  alt="Logo"
-						  width="213px" height="68px"
-				  >
-				</div>
-				<div id="updog">
-				  <a class="menu" href="../index.html"><b>HOME</b></a>
-				  <a class="menu" href="../contact_page/contact page.html"><b>CONTACT</b></a>
-				  <a class="menu" href="../about/About us.html"><b>ABOUT US</b></a>
-				  <a class="menu" href="../products/Product.html"><b>PRODUCTS</b></a>
-				</div>
-				<div class="dropdown">
-				  <button class="drop" onclick="myFunction()">Arrow</button>
-				  <div class="dropdown-content" id="DropID">
-					<h1><b>menu</b></h1>
-					<a href="../index.html">HOME</a>
-					<a href="../contact_page/contact page.html">CONTACT</a>
-					<a href="../about/About us.html">ABOUT US</a>
-					<a href="../products/Product.html">PRODUCTS</a>
-				  </div>
-				</div>
-			</header>
-			<div class="CircleWorkspaceHeader"><h3>CIRCLE WORKSPACE</h3></div>
-			<div class="WorkspaceContent">
-				<div class="BlueCircle"></div>
-				<p class="workspacetext left">Create a role- and conditions-based workplace, within minutes</p>
-			</div>
-			<div class="WorkspaceContent">
-				<p class="workspacetext">Combine all your current and future technologies, within one environment.</p>
-				<div class="BlueCircle"></div>
-			</div>
-			<div class="WorkspaceContent">
-				<div class="BlueCircle"></div>
-				<p class="workspacetext">Display information from applications directly in Circle Workspace. </p>
-			</div>
-			<div class="WorkspaceContent">
-				<p class="workspacetext">See all your unread emails, appointments, news, recently edited documents and more.</p>
-				<div class="BlueCircle"></div>
-			</div>
-			<div class="WorkspaceContent">
-				<div class="BlueCircle" id="specialCircle1"></div>
-				<p class="workspacetext">Bring all documents together in one online workplace. So you can work online and offline from any device.</p>
-			</div>
-			<div class="WorkspaceContent">
-				<p class="workspacetext">See all your unread emails, appointments, news, recently edited documents and more.</p>
-				<div class="BlueCircle"></div>
-			</div>
-			<div class="WorkspaceContent">
-				<div class="BlueCircle"></div>
-				<p class="workspacetext">Bring structure to files hosted on Office 365, OneDrive and SharePoint.</p>
-			</div>
-			<div class="TeamCompanyImage">
-				<img src="Team1.png" alt="teams" title="team">
-				<img src="Company1.png" alt="Company" title="company">
-			</div>
-			<footer style="grid-column: 1/6;">
-				<div id="FindContainer">
-						<h1><b>Find us here:</b></h1>
-				</div>
-				<div id="SocialMedia">
-					<img
-						src="../Resources/twitter.png"
-						alt="Twitter"
-						width="45px" height="45px"
-					>
-					<img
-						src="../Resources/linkedin.png"
-						alt="Linkedin"
-						width="45px" height="45px"
-					>
-					<img
-						src="../Resources/facebook.png"
-						alt="Facebook"
-						width="45px" height="45px"
-					>
-					<img
-						src="../Resources/instagram.png"
-						alt="Instagram"
-						width="45px" height="45px"
-					>
-				</div>
-			</footer>
-		</div>
 
-		-->
 	</body>
 
 </html>

@@ -66,6 +66,7 @@ main>.Workspace {
     background-size: 1000px;
     width: 1000px;
     height: 800px;
+    margin: auto;
 }
 
 
@@ -73,7 +74,6 @@ main>.Workspace {
     grid-column: 1/6;
     vertical-align: baseline;
     line-height: 1;
-    flex-wrap:wrap;
     box-sizing: border-box;
     display: flex;
     position: relative;
@@ -135,16 +135,13 @@ main>.Workspace {
     background-color: rgba(0, 0, 0, 0);
 }
 .TeamCompanyImage {
-    display: flex;
-    justify-content: center;
-    flex-direction:column;
     width: 300px;
     height: 400px;
 }
 footer{
-    display: flex;
-    background-color: white;
+	position:relative !important;
 }
+
 
 .ContactContainer{
     display: flex;
@@ -229,7 +226,7 @@ hr {
     width: 230px;
 }
 
-#FindContainer{
+#FindContainer {
     padding-left: 50px;
 }
 
@@ -237,7 +234,9 @@ hr {
 
 @media screen and (max-width: 576px) {
 	.producttext{
-		width: 80%
+		width: 80%;
+        margin-left: 20px;
+        
     }
 
     body{
@@ -248,6 +247,12 @@ hr {
 	main{
 		margin-left: 0px;
 	}
+    main > h3{
+        margin-left: 20px;
+    }
+    main > p{
+        margin-left: 20px;
+    }
 	
 	.CircleWorkspaceHeader{
 		grid-column: 1/6;
@@ -283,16 +288,18 @@ hr {
 	}
 	
 	.TeamCompanyImage{
-		justify-content: flex-start;
+        display: flex;
+        flex-direction: column;
+		justify-content: space-between;
 		align-items: center;
 		width:auto;
 		height:auto;
-		grid-column:1/6;
+		grid-column:2/3;
 	}
 	
 	.TeamCompanyImage img {
 		height: 325px;
-		width: 400px;
+        margin-bottom: 50px;
 	}
 	
 	footer{
@@ -325,3 +332,4 @@ hr {
         font-size: 2rem;
     }
 }
+

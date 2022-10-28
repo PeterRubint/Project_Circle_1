@@ -8,21 +8,71 @@
     <title>Circle Solutions - Products</title>
 </head>
 <body>
-
+	<script>
+		if(window.innerWidth<=576) window.location = "prod_mobile_main.html";
+	</script>
 	<header>
 		<div id="img">
-			<img
-					src="circle solutions_logo_03.png"
-					alt="Logo"
-					width="213px" height="68px"
+		<img 
+				src="../Resources/circle solutions_logo_03.png"
+				alt="Logo"
+				width="213px" height="68px" 
 			>
 		</div>
 		<div id="updog">
 			<a class="menu" href="../index.html"><b>HOME</b></a>
 			<a class="menu" href="../contact_page/contact_page.html"><b>CONTACT</b></a>
 			<a class="menu" href="../about/About us.html"><b>ABOUT US</b></a> 
-			<a class="menu" href="Product.html"><b style="color: #74DBF7;">PRODUCTS</b></a>
+			<a class="menu" href="../products/Product.html"><b>PRODUCTS</b></a>
 		</div>
+		<div class="dropdown">
+		<script>  
+				function myFunction(){  
+				   var click = document.getElementById("NavStuff");  
+				   if(click.style.display ==="none") {  
+					  click.style.display ="block";  
+				   } else {  
+					  click.style.display ="none";  
+				   }   
+				}  
+		</script>  
+				<button onclick="myFunction()" class="drop">
+					<img
+						src="../Resources/arrow-transparent.png"
+						alt="Menu"
+						width="30px" height="30px"
+					>
+				</button>
+				<div class="dropdown-content" id="DropID">
+					<div id="NavStuff">
+					<h1><b>menu</b></h1>
+						<a href="../index.html">
+						<img
+							src="../Resources/home-transparent.png"
+							width="20px" height="20px"
+						>
+						HOME</a>
+						<a href="../contact_page/contact_page.html">
+						<img
+							src="../Resources/mail-transparent.png"
+							width="20px" height="20px"
+						>
+						CONTACT</a>
+						<a href="../about/About us.html">
+						<img
+							src="../Resources/user-transparent.png"
+							width="20px" height="20px"
+						>
+						ABOUT US</a>
+						<a href="../products/Product.html">
+						<img
+							src="../Resources/information-transparent.png"
+							width="20px" height="20px"
+						>
+						PRODUCTS</a>
+					</div>
+				</div>
+		</div>	
 	</header>
 	<div id="grid">
 		<main>
@@ -76,63 +126,63 @@
 			</div>
 			</div>
 		</main>
+		<footer>
+			<div id="ContactContainer">
+				<h1><b>Contact details</b></h1>
+			</div>
+			<div id="LocationEtc">
+				<a href="https://duckduckgo.com/?q=nhl+stenden+university+of+applied+sciences&ia=web&iaxm=maps">
+					<img
+							src="placeholder.png"
+							alt="Location"
+							width="25px" height="25px"
+					>
+					Emmen, NL</a>
+				<a href="https://www.youtube.com/watch?v=xVRVVgBnYEE">
+					<img
+							src="telephone.png"
+							alt="Phone Number"
+							width="25px" height="25px"
+					>
+					123-456-789</a>
+				<a href="https://www.amazon.nl/s?k=ty+beanie+boo&adgrpid=1345802701312014&hvadid=84113002185129&hvbmt=bb&hvdev=c&hvlocphy=151582&hvnetw=s&hvqmt=b&hvtargid=kwd-84112950182206%3Aloc-129&hydadcr=1996_2247861&tag=nltxtbistdde-21&ref=pd_sl_30qkairaua_b">
+					<img
+							src="email.png"
+							alt="Email"
+							width="25px" height="25px"
+					>
+					hi@circlesolutions.com</a>
+			</div>
+			<div id="SocialContainer">
+					<div id="FindContainer">
+						<h1><b>Find us here:</b></h1>
+					</div>
+					<div id="SocialMedia">
+						<img
+							src="../Resources/twitter.png"
+							alt="Twitter"
+							width="45px" height="45px"
+						>
+						<img
+							src="../Resources/linkedin.png"
+							alt="Linkedin"
+							width="45px" height="45px"
+						>
+						<img
+							src="../Resources/facebook.png"
+							alt="Facebook"
+							width="45px" height="45px"
+						>
+						<img
+							src="../Resources/instagram.png"
+							alt="Instagram"
+							width="45px" height="45px"
+						>
+					</div>
+				</div>
+		</footer>
 	</div>
 </body>
-    <footer>
-        <div id="ContactContainer">
-            <h1><b>Contact details</b></h1>
-        </div>
-        <div id="LocationEtc">
-            <a href="https://duckduckgo.com/?q=nhl+stenden+university+of+applied+sciences&ia=web&iaxm=maps">
-                <img
-                        src="placeholder.png"
-                        alt="Location"
-                        width="25px" height="25px"
-                >
-                Emmen, NL</a>
-            <a href="https://www.youtube.com/watch?v=xVRVVgBnYEE">
-                <img
-                        src="telephone.png"
-                        alt="Phone Number"
-                        width="25px" height="25px"
-                >
-                123-456-789</a>
-            <a href="https://www.amazon.nl/s?k=ty+beanie+boo&adgrpid=1345802701312014&hvadid=84113002185129&hvbmt=bb&hvdev=c&hvlocphy=151582&hvnetw=s&hvqmt=b&hvtargid=kwd-84112950182206%3Aloc-129&hydadcr=1996_2247861&tag=nltxtbistdde-21&ref=pd_sl_30qkairaua_b">
-                <img
-                        src="email.png"
-                        alt="Email"
-                        width="25px" height="25px"
-                >
-                hi@circlesolutions.com</a>
-		</div>
-		<div id="SocialContainer">
-				<div id="FindContainer">
-					<h1><b>Find us here:</b></h1>
-				</div>
-				<div id="SocialMedia">
-					<img
-						src="../Resources/twitter.png"
-						alt="Twitter"
-						width="45px" height="45px"
-					>
-					<img
-						src="../Resources/linkedin.png"
-						alt="Linkedin"
-						width="45px" height="45px"
-					>
-					<img
-						src="../Resources/facebook.png"
-						alt="Facebook"
-						width="45px" height="45px"
-					>
-					<img
-						src="../Resources/instagram.png"
-						alt="Instagram"
-						width="45px" height="45px"
-					>
-				</div>
-			</div>
-    </footer>
 </html>
 <script>
 

@@ -4,6 +4,7 @@
 }
 body{
     background-image: url("Resources/pexels-dana-tentis-370799.jpg");
+    background-size: cover;
     margin: 0;
     padding: 0
 }
@@ -17,6 +18,7 @@ body{
     flex-direction: column;
     
 }
+
 .container {
     max-width: 1600px;
     margin: auto;
@@ -117,6 +119,20 @@ h2:hover{
         font-size: 25px;
         color: #FFFFFF;
         text-align: center;
+        margin-left: 0px;
+        padding: 0;
         
+    }
+}
+@media screen and (min-width: 2000px) {
+    footer{
+        position: absolute;
+        bottom: 0;
+    }
+    p{
+        font-size: 50px;
+    }
+    #vision{
+        font-size: 100px;
     }
 }

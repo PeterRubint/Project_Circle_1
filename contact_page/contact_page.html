@@ -19,23 +19,60 @@
 		</div>
 		<div id="updog">
 			<a class="menu" href="../index.html"><b>HOME</b></a>
-			<a class="menu" href="contact_page.html"><b style="color: #74DBF7;">CONTACT</b></a>
+			<a class="menu" href="../contact_page/contact_page.html"><b>CONTACT</b></a>
 			<a class="menu" href="../about/About us.html"><b>ABOUT US</b></a> 
 			<a class="menu" href="../products/Product.html"><b>PRODUCTS</b></a>
 		</div>
 		<div class="dropdown">
-				<button class="drop">Arrow</button>
-				<div class="dropdown-content" id="DropID">
-					<h1><b>menu</b></h1>
-					<div id="NavStuff">
-						<a href="../index.html">HOME</a>
-						<a href="contact_page.html">CONTACT</a>
-						<a href="../about/About us.html">ABOUT US</a>
-						<a href="../products/Product.html">PRODUCTS</a>
+			<script>  
+					function myFunction(){  
+					   var click = document.getElementById("NavStuff");  
+					   if(click.style.display ==="none") {  
+						  click.style.display ="block";  
+					   } else {  
+						  click.style.display ="none";  
+					   }   
+					}  
+			</script>  
+					<button onclick="myFunction()" class="drop">
+						<img
+							src="../Resources/arrow-transparent.png"
+							alt="Menu"
+							width="30px" height="30px"
+						>
+					</button>
+					<div class="dropdown-content" id="DropID">
+						<div id="NavStuff">
+						<h1><b>menu</b></h1>
+							<a href="../index.html">
+							<img
+								src="../Resources/home-transparent.png"
+								width="20px" height="20px"
+
+							>
+							HOME</a>
+							<a href="../contact_page/contact_page.html">
+							<img
+								src="../Resources/mail-transparent.png"
+								width="20px" height="20px"
+							>
+							CONTACT</a>
+							<a href="../about/About us.html">
+							<img
+								src="../Resources/user-transparent.png"
+								width="20px" height="20px"
+							>
+							ABOUT US</a>
+							<a href="../products/Product.html">
+							<img
+								src="../Resources/information-transparent.png"
+								width="20px" height="20px"
+							>
+							PRODUCTS</a>
+						</div>
 					</div>
-				</div>
-		</div>
-	</header>
+			</div>	
+		</header>
 		<div class="find_out_more">
 			<p class="find_out">
 				find out more
@@ -91,8 +128,8 @@
 				<p>hi@circlesolutions.com</p>
 			</label>
 		</div>
-
-		<footer>
+</body>
+<footer>
 			<div id="ContactContainer">
 				<h1 style="margin-top: 50px;"><b>Contact details</b></h1>
 			</div>
@@ -147,5 +184,4 @@
 				</div>
 			</div>
 		</footer>
-</body>
 </html>
