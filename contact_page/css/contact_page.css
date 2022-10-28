@@ -246,7 +246,9 @@ footer{
 }
 @media screen and (min-width: 2000px) {
     footer{
-		grid-row-start: 4;
+		position: absolute;
+		bottom: 0px;
+		top: 1100px;
     }
     
     
