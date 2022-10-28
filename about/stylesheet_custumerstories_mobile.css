@@ -76,9 +76,5 @@ main {
 footer{
 	grid-column: 1/6;
 	align-items:center;
-	
 }
 
-#FindContainer {
-	padding-right:0px;
-}
