@@ -237,7 +237,9 @@ hr {
 
 @media screen and (max-width: 576px) {
 	.producttext{
-		width: 80%
+		width: 80%;
+        margin-left: 20px;
+        
     }
 
     body{
@@ -248,6 +250,12 @@ hr {
 	main{
 		margin-left: 0px;
 	}
+    main > h3{
+        margin-left: 20px;
+    }
+    main > p{
+        margin-left: 20px;
+    }
 	
 	.CircleWorkspaceHeader{
 		grid-column: 1/6;
