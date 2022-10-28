@@ -135,9 +135,6 @@ main>.Workspace {
     background-color: rgba(0, 0, 0, 0);
 }
 .TeamCompanyImage {
-    display: flex;
-    justify-content: center;
-    flex-direction:column;
     width: 300px;
     height: 400px;
 }
@@ -231,97 +228,4 @@ hr {
 
 #FindContainer{
     padding-left: 50px;
-}
-
-
-
-@media screen and (max-width: 576px) {
-	.producttext{
-		width: 80%
-    }
-
-    body{
-		padding: 0;
-		margin: 0;
-    }
-	
-	main{
-		margin-left: 0px;
-	}
-	
-	.CircleWorkspaceHeader{
-		grid-column: 1/6;
-		border-bottom: 7px solid #74DBF7;
-		
-		font-size: 35px;
-	}
-	
-
-    .WorkspaceContent {
-        /* justify-content: space-evenly; */
-        margin-left: 0px;
-        /* margin-right: 20px; */
-        justify-content: left;
-        font-size: 0.8rem;
-        grid-column: 1/6;
-
-	}
-	
-	.BlueCircle {
-		border: 8px solid #74DBF7;
-		width: 40px;
-		height: 30px;
-	}
-	
-	.workspacetext{
-		display: flex;
-		align-items: center;
-		
-		width: 70%;
-		
-		font-size: 20px;
-	}
-	
-	.TeamCompanyImage{
-		justify-content: flex-start;
-		align-items: center;
-		width:auto;
-		height:auto;
-		grid-column:1/6;
-	}
-	
-	.TeamCompanyImage img {
-		height: 325px;
-		width: 400px;
-	}
-	
-	footer{
-		grid-column: 1/6;
-		align-items:center;
-	}
-
-	#FindContainer {
-		padding-right:0px;
-	}
-
-
-    .left {
-        position: absolute;
-        margin-left: 5rem;
-    }
-
-    .right{
-        display: flex;
-        /* grid-column: 1/5; */
-        max-width: 310px;
-    }
-
-    #firstText {
-        position: absolute;
-        margin-left: 4rem;
-    }
-
-    .CircleWorkspaceHeader > h3 {
-        font-size: 2rem;
-    }
 }
