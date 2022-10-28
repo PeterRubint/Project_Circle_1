@@ -4,6 +4,7 @@
 }
 body{
     background-image: url("Resources/pexels-dana-tentis-370799.jpg");
+    background-size: cover;
     margin: 0;
     padding: 0
 }
