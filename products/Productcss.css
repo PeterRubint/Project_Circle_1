@@ -79,10 +79,12 @@ main>.Workspace {
     position: relative;
     justify-content: space-evenly;
     flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .prices>img {
     display:flex;
-    max-width: 40%;
+    max-width: 290px;
     flex-direction: row;
     margin-top: -50px;
     margin-left: 70px;
