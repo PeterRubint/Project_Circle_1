@@ -44,8 +44,7 @@ main{
 	flex-direction: column;
 	margin-left: 20px;
 	padding-top: 15px;
-	height: 800px;
-	width: 570px;
+	width: 50%;
 }
 
 .stories{
@@ -65,18 +64,38 @@ main{
 	font-weight: 600;
 	font-size: 20px;
 	line-height: 30px;
-
 	color: #799DAB;
 }
 
 #graphictext{
 	display: flex;
 	flex-direction: column;
-	
-	padding-right: 40px;
+	width: 50%;
 }
+@media screen and (min-width: 2000px) {
+    footer{
+        position: fixed;
+        bottom: 0;
+    }
+    p{
+        font-size: 50px;
+	}
+	.stories{
+		font-size: 40px;
+		line-height: 40px;
+	}
+	
+	.storiesnames{
+		margin-top: -18px;
 
-footer{
-	grid-column: 1/6;
-	grid-row: 6/6;
+		font-weight: 600;
+		font-size: 40px;
+		line-height: 40px;
+	
+		color: #799DAB;
+	}
+	#graphictext{
+		width: 40%;
+		margin-right: 70px;
+	}
 }

@@ -145,10 +145,8 @@ input[type=submit]{
 }
 footer{
 	position: relative;
-	top: 250px;
+	top: 220px;
 }
-
-
 
 
 
@@ -245,6 +243,15 @@ footer{
 		position: absolute;
 		right: 60px;
 	}
+}
+@media screen and (min-width: 2000px) {
+    footer{
+		position: absolute;
+		bottom: 0px;
+		top: 1100px;
+    }
+    
+    
 }
 
 

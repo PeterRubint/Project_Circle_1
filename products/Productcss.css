@@ -122,10 +122,12 @@ main>.Workspace {
     font-size: 8px;
     font-family: 'Calibre';
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
 }
 .WorkspaceContent>p {
     color: #799DAB;
+    width: 360px;
 }
 .BlueCircle {
     width: 50px;
@@ -141,9 +143,9 @@ main>.Workspace {
     height: 400px;
 }
 footer{
-    display: flex;
-    background-color: white;
+	position:relative !important;
 }
+
 
 .ContactContainer{
     display: flex;
@@ -238,14 +240,14 @@ hr {
 	.producttext{
 		width: 80%;
         margin-left: 20px;
-        
+
     }
 
     body{
 		padding: 0;
 		margin: 0;
     }
-	
+
 	main{
 		margin-left: 0px;
 	}
@@ -255,40 +257,24 @@ hr {
     main > p{
         margin-left: 20px;
     }
-	
+
 	.CircleWorkspaceHeader{
 		grid-column: 1/6;
 		border-bottom: 7px solid #74DBF7;
-		
+
 		font-size: 35px;
 	}
-	
 
-    .WorkspaceContent {
-        /* justify-content: space-evenly; */
-        margin-left: 0px;
-        /* margin-right: 20px; */
-        justify-content: left;
-        font-size: 0.8rem;
-        grid-column: 1/6;
 
-	}
-	
-	.BlueCircle {
-		border: 8px solid #74DBF7;
-		width: 40px;
-		height: 30px;
-	}
-	
 	.workspacetext{
 		display: flex;
 		align-items: center;
-		
+
 		width: 70%;
-		
+
 		font-size: 20px;
 	}
-	
+
 	.TeamCompanyImage{
         display: flex;
         flex-direction: column;
@@ -298,12 +284,12 @@ hr {
 		height:auto;
 		grid-column:2/3;
 	}
-	
+
 	.TeamCompanyImage img {
 		height: 325px;
         margin-bottom: 50px;
 	}
-	
+
 	footer{
 		grid-column: 1/6;
 		align-items:center;
@@ -315,14 +301,13 @@ hr {
 
 
     .left {
-        position: absolute;
-        margin-left: 5rem;
+        grid-column:2/3;
+        font-size: 18px;
     }
 
     .right{
-        display: flex;
-        /* grid-column: 1/5; */
-        max-width: 310px;
+        grid-column: 3/4;
+        font-size:18px;
     }
 
     #firstText {

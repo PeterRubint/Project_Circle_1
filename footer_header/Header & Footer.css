@@ -63,7 +63,7 @@ h1{
 }
 
 footer{
-	grid-column: 1/7;
+	grid-column: 7/1;
 	display: flex;
 	background-color: white;
 	width: 100%;
@@ -90,6 +90,7 @@ footer a{
 	font-style: normal;
 	font-weight: 500;
 	font-size: 20px;
+	text-decoration: none;
 }
 footer img{
 	padding-right: 5px;

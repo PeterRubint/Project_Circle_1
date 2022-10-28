@@ -24,39 +24,55 @@
 			<a class="menu" href="../products/Product.html"><b>PRODUCTS</b></a>
 		</div>
 		<div class="dropdown">
-		<script>  
-				function myFunction(){  
-				   var click = document.getElementById("NavStuff");  
-				   if(click.style.display ==="none") {  
-					  click.style.display ="block";  
-				   } else {  
-					  click.style.display ="none";  
-				   }   
-				}  
-		</script>  
-				<button onclick="myFunction()" class="drop">
-					<img
-						src="../Resources/arrow-transparent.png"
-						alt="Phone Number"
-						width="30px" height="30px"
-					>
-				</button>
-				<div class="dropdown-content" id="DropID">
-					<div id="NavStuff">
-					<h1><b>menu</b></h1>
-						<a href="../index.html">HOME
+			<script>  
+					function myFunction(){  
+					   var click = document.getElementById("NavStuff");  
+					   if(click.style.display ==="none") {  
+						  click.style.display ="block";  
+					   } else {  
+						  click.style.display ="none";  
+					   }   
+					}  
+			</script>  
+					<button onclick="myFunction()" class="drop">
 						<img
-							src="../Resources/home.png"
-							width="17px" height="17px"
+							src="../Resources/arrow-transparent.png"
+							alt="Menu"
+							width="30px" height="30px"
 						>
-						</a>
-						<a href="../contact_page/contact_page.html">CONTACT</a>
-						<a href="../about/About us.html">ABOUT US</a>
-						<a href="../products/Product.html">PRODUCTS</a>
+					</button>
+					<div class="dropdown-content" id="DropID">
+						<div id="NavStuff">
+						<h1><b>menu</b></h1>
+							<a href="../index.html">
+							<img
+								src="../Resources/home-transparent.png"
+								width="20px" height="20px"
+
+							>
+							HOME</a>
+							<a href="../contact_page/contact_page.html">
+							<img
+								src="../Resources/mail-transparent.png"
+								width="20px" height="20px"
+							>
+							CONTACT</a>
+							<a href="../about/About us.html">
+							<img
+								src="../Resources/user-transparent.png"
+								width="20px" height="20px"
+							>
+							ABOUT US</a>
+							<a href="../products/Product.html">
+							<img
+								src="../Resources/information-transparent.png"
+								width="20px" height="20px"
+							>
+							PRODUCTS</a>
+						</div>
 					</div>
-				</div>
-		</div>	
-	</header>
+			</div>	
+		</header>
 		<div class="find_out_more">
 			<p class="find_out">
 				find out more
@@ -74,19 +90,19 @@
 			</p>
 		</div>
 
-		<form>
+		<form method="POST" onsubmit="formRedirect()" action="../index.html">
 			<main>
 				<p>
 					<label for="name" class="label">name</label><br>
-					<input type="text" name="name" required>
+					<input type="text" name="name" id="name" required>
 				</p>
 				<p>
 					<label for="email" class="label">email</label><br>
-					<input type="email" name="email" required>
+					<input type="email" name="email" id="email" required>
 				</p>
 				<p>
 					<label for="details" class="label">details</label><br>
-					<textarea required name="details"></textarea>
+					<textarea required id="details" name="details"></textarea>
 				</p>
 				<p>
 					<b>
@@ -95,6 +111,11 @@
 				</p>
 			</main>
 		</form>
+	<script>
+		function formRedirect(){
+			alert("Thank you for contacting us, We will get back to you as soon as possible")
+			}
+	</script>
 		<div class="the_circles">
 			<label class="circle_s">
 				<strong>Name & last name</strong><br>CEO
@@ -107,7 +128,6 @@
 				<p>hi@circlesolutions.com</p>
 			</label>
 		</div>
-
 		<footer>
 			<div id="ContactContainer">
 				<h1 style="margin-top: 50px;"><b>Contact details</b></h1>
