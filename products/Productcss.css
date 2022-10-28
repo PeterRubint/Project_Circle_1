@@ -226,7 +226,7 @@ hr {
     width: 230px;
 }
 
-#FindContainer{
+#FindContainer {
     padding-left: 50px;
 }
 
@@ -288,16 +288,18 @@ hr {
 	}
 	
 	.TeamCompanyImage{
-		justify-content: flex-start;
+        display: flex;
+        flex-direction: column;
+		justify-content: space-between;
 		align-items: center;
 		width:auto;
 		height:auto;
-		grid-column:1/6;
+		grid-column:2/3;
 	}
 	
 	.TeamCompanyImage img {
 		height: 325px;
-		width: 400px;
+        margin-bottom: 50px;
 	}
 	
 	footer{
@@ -330,3 +332,4 @@ hr {
         font-size: 2rem;
     }
 }
+
