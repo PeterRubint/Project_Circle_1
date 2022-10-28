@@ -75,8 +75,3 @@ main{
 	
 	padding-right: 40px;
 }
-
-footer{
-	grid-column: 1/6;
-	grid-row: 6/6;
-}

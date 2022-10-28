@@ -139,9 +139,9 @@ main>.Workspace {
     height: 400px;
 }
 footer{
-    display: flex;
-    background-color: white;
+	position:relative !important;
 }
+
 
 .ContactContainer{
     display: flex;
