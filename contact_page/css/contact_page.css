@@ -148,7 +148,6 @@ input[type=submit]{
 
 
 
-
 @media only screen and (max-width: 576px){
 	.find_out_more{
 		grid-column: 1/7;
@@ -241,6 +240,14 @@ input[type=submit]{
 		position: absolute;
 		right: 60px;
 	}
+}
+@media screen and (min-width: 2000px) {
+    footer{
+        position: absolute;
+        bottom: 0;
+    }
+    
+    
 }
 
 
